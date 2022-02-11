@@ -3,10 +3,6 @@ name: MSBuild
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]  
-    types: [opened, synchronize, reopened]
-
 env:
   # Path to the solution file relative to the root of the project.
   SOLUTION_FILE_PATH: .
